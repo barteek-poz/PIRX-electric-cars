@@ -1,6 +1,6 @@
 <h1>PIRX</h1>
 
-**PIRX** is a fictional project of a company manufacturing electric cars, which can be viewed at the following link: https://animated-dusk-d95695.netlify.app. The website was built using React Router and Vite, while car and showroom data are fetched from a Firebase database. React Hook Form and react-select were utilized for input and select validation. The site is fully responsive. The design of the page draws strong inspiration from the dieCar project (https://dribbble.com/shots/21228185-dieCar-Shop-Page), while the copyright and logic of the site were developed independently.
+**PIRX** is a fictional project of a company manufacturing electric cars, which can be viewed at the following link: https://pirx-electric-cars.netlify.app/. The website was built using React Router and Vite, while car and showroom data are fetched from a Firebase database. React Hook Form and react-select were utilized for input and select validation. The site is fully responsive. The design of the page draws strong inspiration from the dieCar project (https://dribbble.com/shots/21228185-dieCar-Shop-Page), while the copyright and logic of the site were developed independently.
 
 ![Zrzut ekranu 2023-11-18 o 14 53 14](https://github.com/barteek-poz/PIRX-electric-car-React-Vite-/assets/109816351/503e0079-be78-4c3e-819d-f2d4abd36e9c)
 ![Zrzut ekranu 2023-11-18 o 14 55 59](https://github.com/barteek-poz/PIRX-electric-car-React-Vite-/assets/109816351/c69143c3-28e1-48c2-8932-9d05cf6fd0f6)
