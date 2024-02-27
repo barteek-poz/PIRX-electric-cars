@@ -1,0 +1,102 @@
+.salonWrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  border: 1px solid var(--color-black);
+  border-radius: 20px;
+  font-size: 1.6rem;
+  color: var(--color-white);
+  background-color: var(--color-black);
+  overflow: hidden;
+  transition: 0.4s;
+}
+
+.salonWrapper:hover {
+  scale: 1.05;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.406);
+}
+
+.salonHeading {
+  text-align: center;
+  font-size: 2.6rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 1rem;
+}
+
+.salonImg {
+  width: 100%;
+  height: 24rem;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+}
+
+.salonInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 1rem;
+  list-style: none;
+  padding: 3rem;
+  font-weight: 300;
+}
+
+.salonIcon {
+  font-size: 1.4rem;
+  margin-right: 0.6rem;
+}
+
+.salonBtn {
+  padding: 2rem;
+}
+
+@media (max-width: 56.25rem) {
+  .salonWrapper {
+    flex-direction: row;
+    width: 80%;
+    margin-bottom: 2rem;
+  }
+
+  .salonHeadMobile {
+    width: 50%;
+  }
+  .salonInfo {
+    margin-top: 4rem;
+    margin-left: 2rem;
+    
+  }
+}
+
+@media (max-width: 37.5rem) {
+  .salonWrapper {
+    width: 90%;
+  }
+  .salonInfo {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 31.25rem) {
+  .salonImg {
+    display: none;
+  }
+
+  .salonWrapper {
+    flex-direction: column;
+    align-items: center; 
+  }
+
+  .salonInfo {
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .salonHeading {
+    margin: 0;
+    margin-top: 2rem;
+  }
+}

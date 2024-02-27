@@ -1,0 +1,72 @@
+.modelsContainer {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    background-color: var(--color-black);
+    border-radius: 20px;
+}
+
+.modelsHeading {
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  padding: 4rem;
+  padding-left: 8rem;
+  border-radius: 20px;
+  background-color: var(--color-black);
+  color: white;
+}
+
+.modelsText {
+    color: var(--color-white);
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+    line-height: 26px;
+    text-align: left;
+    padding: 0rem 2rem 4rem 8rem;
+    
+}
+
+
+@media (max-width: 50rem) {
+  .modelsContainer {
+    margin-top: 10rem;
+  }
+}
+
+@media (max-width: 37.5rem) {
+  .modelsContainer {
+    margin-top: 15rem;
+  }
+}
+
+@media (max-width: 35rem) {
+  .modelsContainer {
+    margin-top: 16rem;
+  }
+}
+
+@media (max-width: 31.25rem) {
+  .modelsContainer {
+    margin-top: 30rem;
+    margin-left: 0;
+    margin-right: 0;
+  }
+ .modelsText {
+  padding: 1rem;
+  margin-bottom: 2rem;
+  text-align: center;
+ }
+
+ .modelsHeading {
+  text-align: center;
+  padding: 1rem;
+  padding-top: 2rem;
+ }
+ }
+
+ @media (max-width: 25rem) {
+  .modelsContainer{
+    margin-top: 40rem;
+
+  }
+ }
